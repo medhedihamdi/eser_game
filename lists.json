@@ -1,0 +1,920 @@
+{ "Forms":{
+  "Forms": {
+  "english": "Forms",
+  "arabic_singular": "شَكْل",
+  "arabic_plural": "أَشْكَال",
+  "type": "noun"
+},
+"Circle": {
+  "english": "Circle",
+  "arabic_singular": "دُوِيرَة",
+  "arabic_plural": "دُوِيرَات",
+  "type": "noun"
+},
+"Square": {
+  "english": "Square",
+  "arabic_singular": "مُرَبَعْ",
+  "arabic_plural": "مُرَبْعات",
+  "type": "noun"
+},
+"Rectangle": {
+  "english": "Rectangle",
+  "arabic_singular": "مُستَطِيل",
+  "arabic_plural": "مُسْتَطِيلات",
+  "type": "noun"
+},
+"Triangle": {
+  "english": "Triangle",
+  "arabic_singular": "مَثَلِث",
+  "arabic_plural": "مُثَلْثَات",
+  "type": "noun"
+},
+"Ball": {
+  "english": "Ball",
+  "arabic_singular": "كُرَة",
+  "arabic_plural": "كوِر",
+  "type": "noun"
+}
+
+},
+"Colors":{
+  "Color": {
+    "english": "Color",
+    "arabic_singular": "لُون",
+    "arabic_plural": "أَلوَان",
+    "type": "noun"
+  },
+  "White": {
+    "english": "White",
+    "arabic_male": "أَبْيِض",
+    "arabic_female": "بِيضَه",
+    "arabic_plural": "بْيُض",
+    "type": "adj"
+  },
+  "Black": {
+    "english": "Black",
+    "arabic_male": "أَكْحِل",
+    "arabic_female": "كَحْلَه",
+    "arabic_plural": "كْحُل",
+    "type": "adj"
+  },
+  "Red": {
+    "english": "Red",
+    "arabic_male": "أَحْمِر",
+    "arabic_female": "حَمْرَه",
+    "arabic_plural": "حْمُر",
+    "type": "adj"
+  },
+  "Blue": {
+    "english": "Blue",
+    "arabic_male": "أَزرَق",
+    "arabic_female": "زَرْقَه",
+    "arabic_plural": "زرُق",
+    "type": "adj"
+  },
+  "Green": {
+    "english": "Green",
+    "arabic_male": "أَخْضَر",
+    "arabic_female": "خَضْرَه",
+    "arabic_plural": "خْضُر",
+    "type": "adj"
+  },
+  "Yellow": {
+    "english": "Yellow",
+    "arabic_male": "أَصْفِر",
+    "arabic_female": "صَفْرَه",
+    "arabic_plural": "صْفُر",
+    "type": "adj"
+  },
+  "Brown": {
+    "english": "Brown",
+    "arabic_male": "بُنِّى",
+    "arabic_female": "بُنِيَة",
+    "arabic_plural": "بُنِيِين",
+    "type": "adj"
+  },
+  "Gray": {
+    "english": "Gray",
+    "arabic_singular": "Gris",
+    "arabic_plural": "",
+    "type": "adj"
+  },
+  "Pink": {
+    "english": "Pink",
+    "arabic_singular": "Rose",
+    "arabic_plural": "",
+    "type": "adj"
+  },
+  "Orange": {
+    "english": "Orange",
+    "arabic_male": "بُرتُقالِى",
+    "arabic_female": "بُرْتُقالِيَة",
+    "arabic_plural": "بُرْتُقَالِيِين",
+    "type": "adj"
+  }
+ },
+ "ranking": {
+  "First": {
+    "english": "first the",
+    "arabic_male": "الأُوِل",
+    "arabic_female": "الأُولَة",
+    "arabic_plural": "الأُولِين",
+    "type": "adj"
+  },
+  "Second": {
+    "english": "second the",
+    "arabic_male": "الثَانِى",
+    "arabic_female": "الثانِيَة",
+    "arabic_plural": "الثانِين",
+    "type": "adj"
+  },
+  "Third": {
+    "english": "the third",
+    "arabic_male": "الثالِث",
+    "arabic_female": "الثالْثَة",
+    "arabic_plural": "الثَالْثِين",
+    "type": "adj"
+  },
+  "Fourth": {
+    "english": "the fourth",
+    "arabic_male": "الرابِع",
+    "arabic_female": "الرابْعَة",
+    "arabic_plural": "الرابْعِين",
+    "type": "adj"
+  },
+  "Fifth": {
+    "english": "the fifth",
+    "arabic_male": "الخامِس",
+    "arabic_female": "الخامْسَه",
+    "arabic_plural": "الخامْسِين",
+    "type": "adj"
+  },
+  "Sixth": {
+    "english": "the sixth",
+    "arabic_male": "السادِس",
+    "arabic_female": "السادْسَة",
+    "arabic_plural": "السادْسِين",
+    "type": "adj"
+  },
+  "Seventh": {
+    "english": "the 7th",
+    "arabic_male": "السابِع",
+    "arabic_female": "السابْعَة",
+    "arabic_plural": "السابْعِين",
+    "type": "adj"
+  },
+  "Eighth": {
+    "english": "the 8th",
+    "arabic_male": "الثامِن",
+    "arabic_female": "الثامْنَه",
+    "arabic_plural": "الثامْنِين",
+    "type": "adj"
+  },
+  "Ninth": {
+    "english": "the 9th",
+    "arabic_male": "التاسِع",
+    "arabic_female": "التاسْعَة",
+    "arabic_plural": "التاسْعِين",
+    "type": "adj"
+  },
+  "Tenth": {
+    "english": "the 10th",
+    "arabic_male": "العاشِر",
+    "arabic_female": "العاشْرَة",
+    "arabic_plural": "العاشرِين",
+    "type": "adj"
+  },
+  "Last": {
+    "english": "the last",
+    "arabic_male": "لِخِّر",
+    "arabic_female": "لِخْرَه",
+    "arabic_plural": "لِخرِين",
+    "type": "adj"
+  }
+},
+"nature": {
+  "Land": {
+    "english": "land",
+    "arabic_singular": "أَرْض",
+    "arabic_plural": "أَراضِى",
+    "type": "noun"
+  },
+  "Mountain": {
+    "english": "mountain",
+    "arabic_singular": "جْبَل",
+    "arabic_plural": "جْبال",
+    "type": "noun"
+  },
+  "Sea": {
+    "english": "sea",
+    "arabic_singular": "بْحَر",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Lake": {
+    "english": "lac",
+    "arabic_singular": "بُحَيْرَة",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "River": {
+    "english": "river",
+    "arabic_singular": "نَهْر",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Tree": {
+    "english": "tree",
+    "arabic_singular": "شُجْرَة",
+    "arabic_plural": "شْجَر",
+    "type": "noun"
+  },
+  "Sky": {
+    "english": "sky",
+    "arabic_singular": "سْمَاء",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Sun": {
+    "english": "sun",
+    "arabic_singular": "شَمْس",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Moon": {
+    "english": "moon",
+    "arabic_singular": "ڨَمْر(ة)",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Star": {
+    "english": "star",
+    "arabic_singular": "نِجْمَة",
+    "arabic_plural": "نْجُوم",
+    "type": "noun"
+  },
+  "Herb": {
+    "english": "herb",
+    "arabic_singular": "حْشِيش",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Plant": {
+    "english": "plant",
+    "arabic_singular": "نَبْتَة",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Rose": {
+    "english": "rose",
+    "arabic_singular": "وَرْدَة",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Flower": {
+    "english": "flower",
+    "arabic_singular": "نَوَارَة",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Dust": {
+    "english": "dust",
+    "arabic_singular": "تْرَاب",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Mud": {
+    "english": "mud",
+    "arabic_singular": "طَبْعَة",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Sand": {
+    "english": "sand",
+    "arabic_singular": "رْمَل",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Stone": {
+    "english": "stone",
+    "arabic_singular": "حَجْرَة",
+    "arabic_plural": "حْجَر",
+    "type": "noun"
+  },
+  "Air": {
+    "english": "air",
+    "arabic_singular": "هْوَاء",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Wind": {
+    "english": "wind",
+    "arabic_singular": "رِيح",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Rain": {
+    "english": "rain",
+    "arabic_singular": "مْطَر",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Snow": {
+    "english": "snow",
+    "arabic_singular": "ثِلْج",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Weather": {
+    "english": "weather",
+    "arabic_singular": "طَقْس",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Atmosphere": {
+    "english": "atmosphere",
+    "arabic_singular": "جو",
+    "arabic_plural": "",
+    "type": "noun"
+  }
+},
+"jobs&places": {
+  "Hospital": {
+    "english": "hospital",
+    "arabic_singular": "سْبِيطَار",
+    "arabic_plural": "سْبِيطَارات",
+    "type": "noun"
+  },
+  "Doctor": {
+    "english": "doctor",
+    "arabic_male": "طْبِيب",
+    "arabic_female": "طْبيبَة",
+    "arabic_plural": "طُبَّة",
+    "type": "noun"
+  },
+  "Nurse": {
+    "english": "nurse",
+    "arabic_male": "فِرْمْلِى",
+    "arabic_female": "فِرْمْلِيَة",
+    "arabic_plural": "فْرامِل",
+    "type": "noun"
+  },
+  "ToHeal": {
+    "english": "to heal",
+    "arabic_singular": "داوى",
+    "arabic_plural": "",
+    "type": "verb"
+  },
+  "Road": {
+    "english": "road",
+    "arabic_singular": "طْرِيق",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Street": {
+    "english": "street",
+    "arabic_singular": "شارِع",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Driver": {
+    "english": "driver",
+    "arabic_male": "سَوَاق",
+    "arabic_female": "سَوَاقَة",
+    "arabic_plural": "سَواقِين",
+    "type": "noun"
+  },
+  "District": {
+    "english": "district/alive",
+    "arabic_singular": "حَيْ",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Shop": {
+    "english": "shop",
+    "arabic_singular": "حَانُوت",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Supermarket": {
+    "english": "supermarket",
+    "arabic_singular": "Magazin",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Seller": {
+    "english": "seller",
+    "arabic_male": "بَيَّاع",
+    "arabic_female": "بَيَّاعَة",
+    "arabic_plural": "بَياعين",
+    "type": "noun"
+  },
+  "Buyer": {
+    "english": "buyer",
+    "arabic_male": "شَارِى",
+    "arabic_female": "شارِيَة",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Court": {
+    "english": "court",
+    "arabic_singular": "مَحْكْمَة",
+    "arabic_plural": "مَحَاكِم",
+    "type": "noun"
+  },
+  "Lawyer": {
+    "english": "lawyer",
+    "arabic_male": "مُحامِى",
+    "arabic_female": "مُحَامِيَّة",
+    "arabic_plural": "مُحَامِين",
+    "type": "noun"
+  },
+  "ToProtect": {
+    "english": "to protect",
+    "arabic_singular": "حمي",
+    "arabic_plural": "",
+    "type": "verb"
+  },
+  "Judge": {
+    "english": "judge",
+    "arabic_male": "قاضِى",
+    "arabic_female": "قاضِيَّة",
+    "arabic_plural": "قُضَاة",
+    "type": "noun"
+  },
+  "School": {
+    "english": "school",
+    "arabic_singular": "مَدْرْسَة",
+    "arabic_plural": "مْدارِس",
+    "type": "noun"
+  },
+  "Kindergarten": {
+    "english": "kindergarten",
+    "arabic_singular": "رَوْضَة",
+    "arabic_plural": "رَوْضات",
+    "type": "noun"
+  },
+  "University": {
+    "english": "university",
+    "arabic_singular": "University",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Professor": {
+    "english": "prof.",
+    "arabic_male": "أُسْتَاذ",
+    "arabic_female": "أُسْتاذَة",
+    "arabic_plural": "أَساتْذَه",
+    "type": "noun"
+  },
+  "Teacher": {
+    "english": "teacher",
+    "arabic_male": "مُعلِم",
+    "arabic_female": "مُعَلْمَة",
+    "arabic_plural": "مُعَلْمِين",
+    "type": "noun"
+  },
+  "Student": {
+    "english": "student",
+    "arabic_male": "تِلْميذ",
+    "arabic_female": "تِلْمِيذَة",
+    "arabic_plural": "تْلامْذة",
+    "type": "noun"
+  },
+  "Paper": {
+    "english": "paper",
+    "arabic_singular": "ورقة",
+    "arabic_plural": "أوراق",
+    "type": "noun"
+  },
+  "Pen": {
+    "english": "pen",
+    "arabic_singular": "قْلَم",
+    "arabic_plural": "أَقْلاَم",
+    "type": "noun"
+  },
+  "ToWin": {
+    "english": "win",
+    "arabic_singular": "ربح",
+    "arabic_plural": "",
+    "type": "verb"
+  },
+  "ToLose": {
+    "english": "lose",
+    "arabic_singular": "خسر",
+    "arabic_plural": "",
+    "type": "verb"
+  },
+  "ToPay": {
+    "english": "pay",
+    "arabic_singular": "خلّص",
+    "arabic_plural": "",
+    "type": "verb"
+  },
+  "President": {
+    "english": "president",
+    "arabic_male": "رَئِيس",
+    "arabic_female": "رَئِيسَة",
+    "arabic_plural": "رُؤَساء",
+    "type": "noun"
+  },
+  "Minister": {
+    "english": "minister",
+    "arabic_male": "وْزِير",
+    "arabic_female": "وْزِيرَة",
+    "arabic_plural": "وُزَراء",
+    "type": "noun"
+  },
+  "Ambassador": {
+    "english": "ambassador",
+    "arabic_male": "سَفِير",
+    "arabic_female": "سَفِيرَة",
+    "arabic_plural": "سُفَراء",
+    "type": "noun"
+  },
+  "Embassy": {
+    "english": "embassy",
+    "arabic_singular": "سْفارة",
+    "arabic_plural": "سْفَارات",
+    "type": "noun"
+  },
+  "King": {
+    "english": "king",
+    "arabic_singular": "مَلِك",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Queen": {
+    "english": "queen",
+    "arabic_singular": "مَلِكَة",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Factory": {
+    "english": "factory",
+    "arabic_singular": "مَصْنَع",
+    "arabic_plural": "مَصَانَع",
+    "type": "noun"
+  },
+  "Company": {
+    "english": "company",
+    "arabic_singular": "شَرِكَة",
+    "arabic_plural": "شَرِكَات",
+    "type": "noun"
+  }
+},
+
+"Food": {
+  "Milk": {
+    "english": "milk",
+    "arabic_singular": "حْلِيب",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Butter": {
+    "english": "butter",
+    "arabic_singular": "زِبْدة",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Cheese": {
+    "english": "cheese",
+    "arabic_singular": "جْبِن",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Yogurt": {
+    "english": "yogurt",
+    "arabic_singular": "yoghort",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Bread": {
+    "english": "bread",
+    "arabic_singular": "خُبز",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Jam": {
+    "english": "jam",
+    "arabic_singular": "مَعْجُون",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Egg": {
+    "english": "egg",
+    "arabic_singular": "عَظْمَة",
+    "arabic_plural": "عْظَام",
+    "type": "noun"
+  },
+  "Meat": {
+    "english": "meat",
+    "arabic_singular": "لْحَم",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Cake": {
+    "english": "cake",
+    "arabic_singular": "cake",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Honey": {
+    "english": "honey",
+    "arabic_singular": "عْسَل",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Vegetable": {
+    "english": "vegetable",
+    "arabic_singular": "خُضرة",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Potato": {
+    "english": "potato",
+    "arabic_singular": "بَطاطا",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Tomato": {
+    "english": "tomato",
+    "arabic_singular": "طْماطِم",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Carrot": {
+    "english": "carrot",
+    "arabic_singular": "سْفِنارْيَة",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Onion": {
+    "english": "onion",
+    "arabic_singular": "بْصَل",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Pepper": {
+    "english": "pepper",
+    "arabic_singular": "فِلْفِل",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Peas": {
+    "english": "peas",
+    "arabic_singular": "جِلبانة",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Bean": {
+    "english": "bean",
+    "arabic_singular": "لُوبْيا",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Lentil": {
+    "english": "lentil",
+    "arabic_singular": "عْدَس",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Chickpeas": {
+    "english": "chickpeas",
+    "arabic_singular": "حُمْص",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Soup": {
+    "english": "soup",
+    "arabic_singular": "مَرقة",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Salad": {
+    "english": "salad",
+    "arabic_singular": "سْلاَطَة",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Fruit": {
+    "english": "fruit",
+    "arabic_singular": "غَلَّة",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Juice": {
+    "english": "juice",
+    "arabic_singular": "عَصِير",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "Rice": {
+    "english": "rice",
+    "arabic_singular": "روز",
+    "arabic_plural": "",
+    "type": "noun"
+  },
+  "ToCook": {
+    "english": "cook",
+    "arabic_singular": "طيب",
+    "arabic_plural": "",
+    "type": "verb"
+  },
+  "ToFry": {
+    "english": "fry",
+    "arabic_singular": "قلي",
+    "arabic_plural": "",
+    "type": "verb"
+  },
+  "ToGrill": {
+    "english": "grill",
+    "arabic_singular": "شوي",
+    "arabic_plural": "",
+    "type": "verb"
+  },
+  "ToMill": {
+    "english": "to mill",
+    "arabic_singular": "رحي",
+    "arabic_plural": "",
+    "type": "verb"
+  },
+  "ToMix": {
+    "english": "mix",
+    "arabic_singular": "خلّط",
+    "arabic_plural": "",
+    "type": "verb"
+  },
+  "ToHeat": {
+    "english": "heat",
+    "arabic_singular": "سخّن",
+    "arabic_plural": "",
+    "type": "verb"
+  },
+  "ToFreeze": {
+    "english": "freeze",
+    "arabic_singular": "برّد",
+    "arabic_plural": "",
+    "type": "verb"
+  }
+},
+"animals": {
+  "Animal": {
+    "english": "animal",
+    "arabic_male": "حَيَوان",
+    "arabic_female": "حيَوانة",
+    "arabic_plural": "حَيَوانات",
+    "type": "noun"
+  },
+  "Fish": {
+    "english": "fish",
+    "arabic_male": "حُوت",
+    "arabic_female": "حُوتَة",
+    "arabic_plural": "حُوت",
+    "type": "noun"
+  },
+  "Dog": {
+    "english": "dog",
+    "arabic_male": "كَلب",
+    "arabic_female": "كَلْبَة",
+    "arabic_plural": "كْلاَب",
+    "type": "noun"
+  },
+  "Cat": {
+    "english": "cat",
+    "arabic_male": "قَطُوس",
+    "arabic_female": "قَطُوسَة",
+    "arabic_plural": "قْطاطِس",
+    "type": "noun"
+  },
+  "Donkey": {
+    "english": "donkey",
+    "arabic_male": "بْهِيم",
+    "arabic_female": "بْهيمَة",
+    "arabic_plural": "بْهايِم",
+    "type": "noun"
+  },
+  "Horse": {
+    "english": "horse",
+    "arabic_male": "حْصَان",
+    "arabic_female": "فَرْسَة",
+    "arabic_plural": "حْصُنَة",
+    "type": "noun"
+  },
+  "Sheep": {
+    "english": "sheep",
+    "arabic_male": "عَلُوش",
+    "arabic_female": "نَعْجَة",
+    "arabic_plural": "علالِش",
+    "type": "noun"
+  },
+  "Goat": {
+    "english": "goat",
+    "arabic_male": "جَدْيْ",
+    "arabic_female": "مِْعزَة",
+    "arabic_plural": "مْعِيز",
+    "type": "noun"
+  },
+  "Camel": {
+    "english": "camel",
+    "arabic_male": "جْمَل",
+    "arabic_female": "نَاقَة",
+    "arabic_plural": "جْمَال",
+    "type": "noun"
+  },
+  "Pork": {
+    "english": "pork",
+    "arabic_male": "حَلوف",
+    "arabic_female": "حَلوفَة",
+    "arabic_plural": "حْلالِف",
+    "type": "noun"
+  },
+  "Chicken": {
+    "english": "chicken",
+    "arabic_male": "سَرْدوك",
+    "arabic_female": "دْجاجة",
+    "arabic_plural": "دجاج",
+    "type": "noun"
+  },
+  "Chick": {
+    "english": "chick",
+    "arabic_male": "فَلُوس",
+    "arabic_female": "",
+    "arabic_plural": "فْلاَلِس",
+    "type": "noun"
+  },
+  "Bird": {
+    "english": "bird",
+    "arabic_male": "عَصْفُور",
+    "arabic_female": "عَصفورَة",
+    "arabic_plural": "عْصافِر",
+    "type": "noun"
+  },
+  "Eagle": {
+    "english": "eagle",
+    "arabic_male": "نِسْر",
+    "arabic_female": "",
+    "arabic_plural": "نْسُورَة",
+    "type": "noun"
+  },
+  "Bug": {
+    "english": "bug",
+    "arabic_male": "خَنْفُوس",
+    "arabic_female": "",
+    "arabic_plural": "خْنَافِس",
+    "type": "noun"
+  },
+  "Mosquito": {
+    "english": "mosquito",
+    "arabic_male": "",
+    "arabic_female": "نامُوسَة",
+    "arabic_plural": "نَامُوس",
+    "type": "noun"
+  },
+  "Fly": {
+    "english": "fly",
+    "arabic_male": "",
+    "arabic_female": "ذِبانة",
+    "arabic_plural": "ذِبان",
+    "type": "noun"
+  },
+  "Bee": {
+    "english": "bee",
+    "arabic_male": "",
+    "arabic_female": "نَحْلَة",
+    "arabic_plural": "نْحَل",
+    "type": "noun"
+  },
+  "Cockroach": {
+    "english": "cockroach",
+    "arabic_male": "فَرْزِيط",
+    "arabic_female": "",
+    "arabic_plural": "فْرازِط",
+    "type": "noun"
+  },
+  "Scorpion": {
+    "english": "scorpion",
+    "arabic_male": "عَقْرِب",
+    "arabic_female": "",
+    "arabic_plural": "عْقارِب",
+    "type": "noun"
+  },
+  "Snake": {
+    "english": "snake",
+    "arabic_male": "حْنَش",
+    "arabic_female": "حْنُوشَة",
+    "arabic_plural": "",
+    "type": "noun"
+  }
+}
+
+
+
+
+
+}
+
+
+
+
+ 

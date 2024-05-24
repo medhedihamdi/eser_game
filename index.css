@@ -1,0 +1,60 @@
+/* styles.css */
+
+body {
+    background-color: green; /* تعيين لون الخلفية */
+    font-family: Arial, sans-serif; /* تعيين الخط الأساسي */
+    margin: 0; /* إزالة الهوامش الافتراضية */
+    padding: 0; /* إزالة الهوامش الافتراضية */
+    display: flex; /* استخدام Flexbox لترتيب العناصر */
+    flex-direction: column; /* ترتيب العناصر عموديًا */
+    align-items: center; /* محاذاة العناصر أفقيا في المنتصف */
+    justify-content: center; /* محاذاة العناصر عموديا في المنتصف */
+    height: 100vh; /* جعل ارتفاع الصفحة بالكامل */
+    text-align: center; /* محاذاة النص إلى الوسط */
+}
+.container{
+    
+}
+.welcom{
+
+}
+.form{
+    margin: auto auto;
+}
+
+h1 {
+    color: chartreuse; /* تعيين لون النص */
+    margin: 10px 0; /* إضافة هوامش بسيطة */
+}
+
+#game-question {
+    color: white; /* تعيين لون النص */
+    cursor: pointer; /* تغيير المؤشر عند التحويل إلى رابط */
+    margin: 10px 0; /* إضافة هوامش بسيطة */
+}
+
+button {
+    background-color: white; /* تعيين لون الخلفية */
+    color: green; /* تعيين لون النص */
+    border: 2px solid white; /* تعيين الحدود */
+    padding: 15px 30px; /* تعيين الهوامش */
+    font-size: 20px; /* تعيين حجم الخط */
+    cursor: pointer; /* تغيير المؤشر عند التحويل إلى رابط */
+    transition: background-color 0.3s, color 0.3s; /* إضافة تأثير الانتقال */
+    margin: 20px 0; /* إضافة هوامش بسيطة */
+}
+
+button:hover {
+    background-color: green; /* تعيين لون الخلفية عند تحويل المؤشر إليه */
+    color: white; /* تعيين لون النص عند تحويل المؤشر إليه */
+}
+
+.img {
+    height: 50%;
+   
+    
+   object-fit: cover; /* الحفاظ على نسبة العرض إلى الارتفاع للصورة */
+    margin-top: 10px; /* إضافة هامش علوي */
+    border: 1px solid white; /* إضافة حدود للصورة */
+  
+}

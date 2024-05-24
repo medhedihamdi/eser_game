@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>es ti game</title>
+    <link rel="stylesheet" href="index.css"/>
+    <style>
+        .highlight {
+            font-size: 30px;
+            font-weight: bold;
+            color:turquoise; /* Example color, you can change it */
+        }
+
+        .question {
+            font-size: 20px;
+            font-weight: bold;
+            color: blue; /* Example color, you can change it */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <h1>MED L&#10084;&#65039;OVE ESZTER</h1>
+            <button onclick="startGame()">Start</button>
+            <p id="game-question">Click Start to start the game</p>
+            <p id="question" class="question"></p>
+            <div id="question-container" style="text-align: center; margin-top: 20px;"></div>
+            <input type="text" id="answer" placeholder="Enter your answer here">
+            <button onclick="submitAnswer()">Submit</button>
+            <div id="feedback-container" style="text-align: center; margin-top: 20px;"></div>
+        </div>
+    </div>
+
+    <script>
+        var data = null;
+        var score = 0;
+        var currentWord = '';
+        var correctTranslation = '';
+
+        function startGame() {
+            // Read the JSON file if not already read
+            if (!data) {
+                fetch('lists.json')
+                .then(response => response.json())
+                .then(jsonData => {
+                    data = jsonData;
+                    askQuestion();
+                })
+                .catch(error => console.error('Error fetching data:', error));
+            } else {
+                askQuestion();
+            }
+        }
+
+        function askQuestion() {
+            // List of topics
+            var topics = Object.keys(data);
+
+            // Select a random topic
+            var topic = topics[Math.floor(Math.random() * topics.length)];
+
+            // Select a random word from the topic
+            var words = Object.keys(data[topic]);
+            currentWord = getRandomWordWithData(words, topic);
+
+            // Select a random translation key
+            var translationKey = ['arabic_female', 'arabic_male', 'arabic_singular', 'arabic_plural'];
+            var randomKey = translationKey[Math.floor(Math.random() * translationKey.length)];
+            correctTranslation = data[topic][currentWord][randomKey];
+
+            // Ensure the translation is not undefined
+            if (correctTranslation !== undefined && correctTranslation !== null) {
+                // Display the question in the question container
+                document.getElementById('question').innerHTML = "Write the English translation for the word: <span class='highlight'>" + correctTranslation + "</span>";
+            } else {
+                // If the value is undefined, ask another question
+                askQuestion();
+            }
+        }
+
+        function submitAnswer() {
+            // Get the user's answer
+            var userInput = document.getElementById('answer').value.trim().toLowerCase();
+
+            // Clear the input field
+            document.getElementById('answer').value = '';
+
+            // Check if the answer is correct
+            if (userInput === currentWord.toLowerCase()) {
+                score++;
+                displayFeedback("Correct! You are very smart!!! Your score: " + score, "smart.jpg");
+            } else {
+                displayFeedback("Incorrect!Med will kill you! The correct word was: " + currentWord, "stupid.jpg");
+            }
+
+            // Ask the next question
+            askNextQuestion();
+        }
+
+        function displayFeedback(message, imageUrl) {
+            var feedbackContainer = document.getElementById("feedback-container");
+            feedbackContainer.innerHTML = `
+                <p>${message}</p>
+                <img src="${imageUrl}" alt="Feedback Image" style="max-width:30%; height40%: ;">
+            `;
+        }
+
+        function askNextQuestion() {
+            var continueGame = confirm("Do you want to continue?");
+
+            if (continueGame) {
+                askQuestion();
+            } else {
+                alert("Your total score is: " + score);
+                score = 0; // Reset score after finishing the game
+            }
+        }
+
+        // Function to select a random word that contains data
+        function getRandomWordWithData(words, topic) {
+            var word = words[Math.floor(Math.random() * words.length)];
+            var attempts = 0;
+            while (attempts < words.length && (!data[topic][word]['arabic_female'] ||
+                !data[topic][word]['arabic_male'] ||
+                !data[topic][word]['arabic_singular'] ||
+                !data[topic][word]['arabic_plural'])) {
+                word = words[Math.floor(Math.random() * words.length)];
+                attempts++;
+            }
+            return word;
+        }
+    </script>
+</body>
+</html>
